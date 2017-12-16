@@ -4,6 +4,12 @@ import java.io.*;
 import java.nio.file.Files;
 import java.util.Base64;
 
+
+/**
+ * Utils for (de)serialization into Base64-encoded string for future persisting.
+ *
+ * @author andy (https://gist.github.com/andy722/1524968)
+ */
 class SerializationUtils {
 
     public static <T extends Serializable> String serialize(T item) {
